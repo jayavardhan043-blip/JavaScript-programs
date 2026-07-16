@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html >
+<body>
+    <p class = "text">Apple</p>
+    <p class = "text">Banana</p>
+    <p class = "text">Mango</p>
+    <button onclick = "changecolor()">Change Color</button>
+    <script>
+        function changecolor() {
+            let items = document.getElementsByClassName("text");
+            for (let i = 0; i < items.length; i++) {
+                items[i].style.color = "red";
+            }
+        }
+    </script>
+</body>
+</html>

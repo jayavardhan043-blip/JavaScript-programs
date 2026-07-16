@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html >
+<body>
+    <li class = "fruit">Apple</li>
+    <li class = "fruit">Banana</li>
+    <li class = "fruit">Orange</li>
+    <button onclick = "highlight()">Highlight</button>
+    <script>
+        function highlight() {
+            let fruits = document.querySelectorAll(".fruit");
+            fruits.forEach(function(item) {
+                item.style.backgroundColor = "yellow";
+            });
+        }
+    </script>
+</body>
+</html>
