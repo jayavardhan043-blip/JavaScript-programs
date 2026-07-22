@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <button onclick = "changeText()">Click Me</button>
+    <script>
+        function changeText() {
+            let para = document.getElementsByTagName("p");
+            for (let i = 0; i < para.length; i++) {
+                para[i].innerHTML = "Updated";
+            }
+        }
+</script>
+</body>
+</html>
