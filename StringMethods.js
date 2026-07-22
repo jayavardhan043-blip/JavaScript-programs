@@ -41,7 +41,7 @@ console.log("Lowercase:", trimmed.toLowerCase());
 //replace
 console.log("Replace:", trimmed.replace("Programming", "Language"));
 
-//replaceAll
+//replaceAll      
 let text = "cat cat cat";
 console.log("replaceAll:", text.replaceAll("cat", "dog"));
 
